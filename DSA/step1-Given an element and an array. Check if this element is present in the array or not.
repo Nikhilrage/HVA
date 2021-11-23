@@ -1,0 +1,6 @@
+n=int(input('Enter an element: '))
+arr=[45,87,23,12,98]
+if n in arr:
+  print(n,'Element is present')
+else:
+  print(n,'Element is not present')
