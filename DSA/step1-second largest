@@ -1,0 +1,10 @@
+x=[90,78,34,50,100,99]
+s = x[0]  
+l= x[0]  
+for i in range(5):  
+      if x[i]> l:  
+          l =x[i]  
+for i in range(len(x)):  
+      if x[i] >s and x[i]!=l:  
+          s = x[i]
+print(s) 
